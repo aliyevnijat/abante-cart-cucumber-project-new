@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I hover over Home menu button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Following menu options shoul be visible for Home menu (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I hover over Apparel &amp; Accessories menu button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Following menu options shoul be visible for Apparel &amp; Accessories: (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I hover over MAKEUP menu button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Following menu options shoul be visible for MAKEUP: (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I hover over SKINCARE menu button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Following menu options shoul be visible for SKINCARE: (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I hover over FRAGRANCE menu button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Following menu options shoul be visible for FRAGRANCE: (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I hover over MEN menu button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Following menu options shoul be visible for MEN: (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I hover over HAIR CARE menu button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Following menu options shoul be visible for HAIR CARE: (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I hover over BOOKS menu button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Following menu options shoul be visible for BOOKS: (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58593" started-at="2018-04-06T22:26:45Z" finished-at="2018-04-06T22:27:44Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="58593" started-at="2018-04-06T22:26:45Z" finished-at="2018-04-06T22:27:44Z">
+      <class name="com.app.runner.CukesRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="setUpClass" is-config="true" duration-ms="154" started-at="2018-04-06T22:26:45Z" finished-at="2018-04-06T22:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" duration-ms="9429" started-at="2018-04-06T22:26:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-06T22:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over Home menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for Home menu (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" duration-ms="6156" started-at="2018-04-06T22:26:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-06T22:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over Apparel &amp; Accessories menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for Apparel &amp; Accessories: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" duration-ms="6281" started-at="2018-04-06T22:27:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-06T22:27:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over MAKEUP menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for MAKEUP: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" duration-ms="6722" started-at="2018-04-06T22:27:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-06T22:27:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over SKINCARE menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for SKINCARE: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" duration-ms="6400" started-at="2018-04-06T22:27:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-06T22:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over FRAGRANCE menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for FRAGRANCE: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" duration-ms="8079" started-at="2018-04-06T22:27:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-06T22:27:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over MEN menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for MEN: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" duration-ms="6806" started-at="2018-04-06T22:27:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-06T22:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over HAIR CARE menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for HAIR CARE: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="runScenario" duration-ms="8472" started-at="2018-04-06T22:27:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-06T22:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over BOOKS menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for BOOKS: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.CukesRunner@5649fd9b]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2018-04-06T22:27:44Z" finished-at="2018-04-06T22:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.app.runner.CukesRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
