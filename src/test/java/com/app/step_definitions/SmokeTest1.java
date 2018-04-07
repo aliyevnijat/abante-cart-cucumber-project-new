@@ -37,7 +37,7 @@ public class SmokeTest1 {
 	@Then("^I Enter Login name \"([^\"]*)\" and password \"([^\"]*)\" and verify main text equals \"([^\"]*)\"$")
 	public void i_Enter_Login_name_and_password_and_verify_main_text_equals(String loginName, String password, String maintext) {
 	    lp.loginName.sendKeys(loginName);
-	    lp.password.sendKeys(password);
+	   // lp.password.sendKeys(password);
 	    lp.loginButton.click();
 	    assertEquals(ma.mainText.getText(), maintext, "actual is " + ma.mainText.getText());
 	}
