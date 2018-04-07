@@ -38,7 +38,7 @@
 		</dependency>
 		<dependency>
 			<groupId>net.masterthought</groupId>
-			<artifactId>cucumber-reporting</artifactId>
+			<artifactId>cucumber-sandwich</artifactId>
 			<version>3.15.0</version>
 		</dependency>
 	</dependencies>
@@ -51,7 +51,7 @@
 				<version>2.21.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>smoke_test1_runner.xml</suiteXmlFile>
+						<suiteXmlFile>${runner}</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>

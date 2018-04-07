@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>TestNG:  SmokeTest1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SmokeTest1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Apr 07 00:27:26 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29848 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.app.runner.SmokeTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.SmokeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "I log in, add multiple items to cart and check out", "Log in, Add to Cart, Check Out"<br/>
+<a href="#Output-1444494461" onClick='toggleBox("Output-1444494461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1444494461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1444494461">
+<div "result">I am on AbanteCart Home Page (PASSED : 7s)</div><br/>
+<div "result">I hover over Account and click on Login (PASSED : 1s)</div><br/>
+<div "result">I Enter Login name &quot;vasif123&quot; and password &quot;vasif123&quot; and verify main text equals &quot;MY ACCOUNT&quot; (PASSED : 2s)</div><br/>
+<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (PASSED : 1s)</div><br/>
+<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (PASSED : 3s)</div><br/>
+<div "result">I verify that displayed total price equals &quot;12.84&quot; (PASSED : 0s)</div><br/>
+<div "result">I continue shopping (PASSED : 1s)</div><br/>
+<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (PASSED : 3s)</div><br/>
+<div "result">I verify that displayed total price equals &quot;35.62&quot; (PASSED : 0s)</div><br/>
+<div "result">I click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (PASSED : 5s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.app.runner.SmokeTestRunner@5649fd9b</td></tr>
+</table><p>
+</body>
+</html>

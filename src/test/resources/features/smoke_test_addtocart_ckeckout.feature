@@ -1,7 +1,7 @@
 #Author: Nijat
 
 Feature: Log in, Add to Cart, Check Out
-
+@smoke_test
   Scenario: I log in, add multiple items to cart and check out
     Given I am on AbanteCart Home Page
     Then I hover over Account and click on Login
@@ -14,9 +14,9 @@ Feature: Log in, Add to Cart, Check Out
     Then I verify that displayed total price equals "35.62"
     Then I click checkout and confirm order and verify main text equals "YOUR ORDER HAS BEEN PROCESSED!"
 
-  @smoke_test
+  
   Scenario Outline: 
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     Then I hover over Account and click on Login
     And I Enter Login name "<logInName>" and password "<password>" and verify main text equals "MY ACCOUNT"
     Then I HoverOver Apparel & accessories and click T-shirts and verify main text equals  "T-SHIRTS"

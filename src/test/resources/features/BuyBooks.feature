@@ -3,7 +3,7 @@ Feature: Buying Books
 
 	@Sha
   Scenario: Buy audio books
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     And I hover over books and click audio CD
     And I click sort by Rating Highest
     And I click on New French With Ease title
@@ -17,7 +17,7 @@ Feature: Buying Books
     And I click Confirm Order
 
   Scenario: Edit account details
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     Then I click on Account
     And I click Edit account details
     And I set First Name as "Fast"

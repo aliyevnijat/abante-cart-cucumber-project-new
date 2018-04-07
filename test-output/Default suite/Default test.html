@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 06 18:26:45 EDT 2018</td>
+<td>Started on:</td><td>Sat Apr 07 00:25:11 EDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>58 seconds (58593 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5543 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,125 +67,111 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
-<a href="#Output-1968196847" onClick='toggleBox("Output-1968196847", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.app.runner.SmokeTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.SmokeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "I log in, add multiple items to cart and check out", "Log in, Add to Cart, Check Out"<br/>
+<a href="#Output-1444494461" onClick='toggleBox("Output-1444494461", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1968196847" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1968196847">
-<div "result">I logged into AbanteCart Website (PASSED : 4s)</div><br/>
-<div "result">I hover over Home menu button (PASSED : 0s)</div><br/>
-<div "result">Following menu options shoul be visible for Home menu (PASSED : 0s)</div><br/>
+<a href="#Output-1444494461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1444494461">
+<div "result">I am on AbanteCart Home Page (PASSED : 3s)</div><br/>
+<div "result">I hover over Account and click on Login (FAILED : 0s)</div><br/>
+<div "result">I Enter Login name &quot;vasif123&quot; and password &quot;vasif123&quot; and verify main text equals &quot;MY ACCOUNT&quot; (SKIPPED)</div><br/>
+<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div><br/>
+<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div><br/>
+<div "result">I verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div><br/>
+<div "result">I continue shopping (SKIPPED)</div><br/>
+<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div><br/>
+<div "result">I verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div><br/>
+<div "result">I click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div><br/>
 </div>
 </td>
-<td></td>
-<td>9</td>
-<td>com.app.runner.CukesRunner@5649fd9b</td></tr>
-<tr>
-<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
-<a href="#Output-1465126864" onClick='toggleBox("Output-1465126864", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1465126864" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1465126864">
-<div "result">I logged into AbanteCart Website (PASSED : 3s)</div><br/>
-<div "result">I hover over Apparel &amp; Accessories menu button (PASSED : 0s)</div><br/>
-<div "result">Following menu options shoul be visible for Apparel &amp; Accessories: (PASSED : 0s)</div><br/>
-</div>
-</td>
-<td></td>
-<td>6</td>
-<td>com.app.runner.CukesRunner@5649fd9b</td></tr>
-<tr>
-<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
-<a href="#Output-66972878" onClick='toggleBox("Output-66972878", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-66972878" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-66972878">
-<div "result">I logged into AbanteCart Website (PASSED : 3s)</div><br/>
-<div "result">I hover over MAKEUP menu button (PASSED : 0s)</div><br/>
-<div "result">Following menu options shoul be visible for MAKEUP: (PASSED : 0s)</div><br/>
-</div>
-</td>
-<td></td>
-<td>6</td>
-<td>com.app.runner.CukesRunner@5649fd9b</td></tr>
-<tr>
-<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
-<a href="#Output-1518529528" onClick='toggleBox("Output-1518529528", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1518529528" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1518529528">
-<div "result">I logged into AbanteCart Website (PASSED : 3s)</div><br/>
-<div "result">I hover over SKINCARE menu button (PASSED : 0s)</div><br/>
-<div "result">Following menu options shoul be visible for SKINCARE: (PASSED : 0s)</div><br/>
-</div>
-</td>
-<td></td>
-<td>6</td>
-<td>com.app.runner.CukesRunner@5649fd9b</td></tr>
-<tr>
-<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
-<a href="#Output-2089636626" onClick='toggleBox("Output-2089636626", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2089636626" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2089636626">
-<div "result">I logged into AbanteCart Website (PASSED : 3s)</div><br/>
-<div "result">I hover over FRAGRANCE menu button (PASSED : 0s)</div><br/>
-<div "result">Following menu options shoul be visible for FRAGRANCE: (PASSED : 0s)</div><br/>
-</div>
-</td>
-<td></td>
-<td>6</td>
-<td>com.app.runner.CukesRunner@5649fd9b</td></tr>
-<tr>
-<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
-<a href="#Output-925672150" onClick='toggleBox("Output-925672150", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-925672150" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-925672150">
-<div "result">I logged into AbanteCart Website (PASSED : 5s)</div><br/>
-<div "result">I hover over MEN menu button (PASSED : 0s)</div><br/>
-<div "result">Following menu options shoul be visible for MEN: (PASSED : 0s)</div><br/>
-</div>
-</td>
-<td></td>
-<td>8</td>
-<td>com.app.runner.CukesRunner@5649fd9b</td></tr>
-<tr>
-<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
-<a href="#Output-1741618564" onClick='toggleBox("Output-1741618564", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1741618564" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1741618564">
-<div "result">I logged into AbanteCart Website (PASSED : 4s)</div><br/>
-<div "result">I hover over HAIR CARE menu button (PASSED : 0s)</div><br/>
-<div "result">Following menu options shoul be visible for HAIR CARE: (PASSED : 0s)</div><br/>
-</div>
-</td>
-<td></td>
-<td>6</td>
-<td>com.app.runner.CukesRunner@5649fd9b</td></tr>
-<tr>
-<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
-<a href="#Output-1563699545" onClick='toggleBox("Output-1563699545", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1563699545" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1563699545">
-<div "result">I logged into AbanteCart Website (PASSED : 6s)</div><br/>
-<div "result">I hover over BOOKS menu button (PASSED : 0s)</div><br/>
-<div "result">Following menu options shoul be visible for BOOKS: (PASSED : 0s)</div><br/>
-</div>
-</td>
-<td></td>
-<td>8</td>
-<td>com.app.runner.CukesRunner@5649fd9b</td></tr>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nijats-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ccf:8b12:4c76:7085%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/7v/8vh4h4751v1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 62321055313ddf97b1422f15a9bf4cfb
+*** Element info: {Using=xpath, value=//ul[@id = &apos;main_menu_top&apos;]//span[.=&apos;Account&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.getCoordinates(Unknown Source)
+	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:65)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
+	at com.app.utilities.BrowserUtils.hover(BrowserUtils.java:22)
+	at com.app.step_definitions.SmokeTest1.i_hover_over_Account_and_click_on_Login(SmokeTest1.java:33)
+	at ✽.I hover over Account and click on Login(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1444494461", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1444494461'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nijats-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ccf:8b12:4c76:7085%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/7v/8vh4h4751v1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 62321055313ddf97b1422f15a9bf4cfb
+*** Element info: {Using=xpath, value=//ul[@id = &apos;main_menu_top&apos;]//span[.=&apos;Account&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.getCoordinates(Unknown Source)
+	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:65)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
+	at com.app.utilities.BrowserUtils.hover(BrowserUtils.java:22)
+	at com.app.step_definitions.SmokeTest1.i_hover_over_Account_and_click_on_Login(SmokeTest1.java:33)
+	at ✽.I hover over Account and click on Login(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:7)
+</pre></div></td>
+<td>5</td>
+<td>com.app.runner.SmokeTestRunner@5649fd9b</td></tr>
 </table><p>
 </body>
 </html>

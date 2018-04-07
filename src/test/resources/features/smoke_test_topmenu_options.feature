@@ -1,7 +1,7 @@
 Feature: 
 
   Background: 
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
 
   @test
   Scenario: 

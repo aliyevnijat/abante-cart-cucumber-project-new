@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="AbanteCart" verbose="2">
+<suite name="AbanteCart Smoke Test" verbose="2">
 
 	<test name="SmokeTest1">
 		<classes>
-			<class name ="com.app.runner.CukesRunner"></class>
+			<class name ="com.app.runner.SmokeTestRunner"></class>
 		</classes>
 	</test>
 

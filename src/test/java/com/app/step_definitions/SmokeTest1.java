@@ -22,7 +22,7 @@ public class SmokeTest1 {
 	LoginPage lp = new LoginPage();
 	MyAccount ma = new MyAccount();
 	
-	@Given("^I logged into AbanteCart Website$")
+	@Given("^I am on AbanteCart Home Page$")
 	public void i_logged_into_AbanteCart_Website() {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	    driver.get(Configuration.getProperty("url"));
