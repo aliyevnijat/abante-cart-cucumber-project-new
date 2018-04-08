@@ -72,7 +72,6 @@ public class BuyBooksStepDefs {
 	@Then("^I click Please Select and choose Ordino$")
 	public void i_click_Please_Select_and_choose_Ordino() {
 		hp.State.sendKeys("Ordino");
-	  
 	}
 
 	@Then("^I input ZIP \"([^\"]*)\"$")
@@ -87,8 +86,7 @@ public class BuyBooksStepDefs {
 
 	@Then("^I click Confirm Order$")
 	public void i_click_Confirm_Order() {
-		hp.confirmOrder.click();
-	   
+		hp.confirmOrder.click();  
 	}
 
 	@Then("^I click on Account$")

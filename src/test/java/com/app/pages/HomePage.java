@@ -68,10 +68,7 @@ public class HomePage {
 	
 	@FindBy(id = "checkout_btn")
 	public WebElement confirmOrder;
-	
-	
-	
-	
+		
 	@FindBy(xpath="//div[@class='productfilneprice']")
 	public WebElement price;
 	 
@@ -121,7 +118,6 @@ public class HomePage {
 	@FindBy(xpath="(//a[contains(text(),'Value Sets')])[1]")
 	public WebElement ValueSets;
 	
-	
 	@FindBy(xpath ="(//a[contains(text(),'Skincare')])[2]")
 	public WebElement SKINCARE;
 	
@@ -131,11 +127,37 @@ public class HomePage {
 	@FindBy(xpath ="(//a[contains(text(),'Men')])[5]")
 	public WebElement MEN;
 	
+	@FindBy(xpath ="//a[contains(text(),'Women')]")
+	public WebElement WOMEN;
+	
 	@FindBy(xpath ="(//a[contains(text(),'Hair Care')])[2]")
 	public WebElement HAIRCARE;
 	
 	@FindBy(xpath ="(//a[contains(text(),'Books')])[2]")
 	public WebElement BOOKS;
+
+	@FindBy (xpath="//p[contains(text(),'Fragrance for Women')]")
+	public WebElement FragranceForWomen;
 	
+	@FindBy(xpath="//a[@title='Beauty Eau de Parfum']")
+	public WebElement beautyEauDeParfum;
+	
+	@FindBy(xpath="//span[@class='bgnone']")
+	public WebElement beautyEauDeParfum2;
+	
+	@FindBy (xpath="//span[@class='maintext']")
+	public WebElement EyesElementOnPage;
+	
+	@FindBy (xpath="//*[@id=\"maincontainer\"]/div/div/div/div/div[2]/div[1]/div[2]/a/img")
+	public WebElement productAbsolueEyesPreciousCells;
+	
+	@FindBy (xpath="//span[@class='bgnone']")
+	public WebElement productAbsolueEyesPreciousCells2;
+	
+	@FindBy (xpath="//*[@id=\"maincontainer\"]/div/div/div/div/div[2]/div[1]/div[2]/div[1]/a[1]")
+	public WebElement viewProductAbsolueEyesPreciousCells;
+	
+	@FindBy(xpath="//*[@id=\"categorymenu\"]/nav/ul/li[4]/div/ul[1]/li[1]/a")
+	public WebElement Eyes2;
 	
 }
