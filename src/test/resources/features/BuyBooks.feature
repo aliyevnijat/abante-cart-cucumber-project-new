@@ -14,8 +14,8 @@ Feature: Buying Books
     And I click Please Select and choose Ordino
     And I input ZIP "21215"
     And I click Checkout
-    And I click Confirm Order
-
+   
+@shava
   Scenario: Edit account details
     Given I am on AbanteCart Home Page
     Then I click on Account

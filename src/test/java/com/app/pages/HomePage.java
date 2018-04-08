@@ -54,6 +54,9 @@ public class HomePage {
 	@FindBy(xpath="//select[@id='estimate_country']")
 	public WebElement Country;
 	
+	@FindBy(xpath="//select[@id='estimate_country_zones']")
+	public WebElement State;
+	
 	@FindBy(xpath="estimate_country_zones")
 	public WebElement City;
 	

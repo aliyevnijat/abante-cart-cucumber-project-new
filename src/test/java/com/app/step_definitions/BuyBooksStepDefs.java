@@ -28,7 +28,9 @@ public class BuyBooksStepDefs {
 
 	@Given("^I hover over books and click audio CD$")
 	public void i_hover_over_books_and_click_audio_CD() {
+		BrowserUtils.waitFor(2);
 		BrowserUtils.hover(hp.BOOKS);
+		BrowserUtils.waitFor(2);
 	    hp.AudioCD.click();
 	}
 
@@ -50,6 +52,7 @@ public class BuyBooksStepDefs {
 
 	@Then("^I enter quantity as (\\d+)$")
 	public void i_enter_quantity_as(int arg1) {
+		BrowserUtils.waitFor(2);
 		hp.Quantity.clear();
 		hp.Quantity.sendKeys("3");
 	   
@@ -62,12 +65,13 @@ public class BuyBooksStepDefs {
 
 	@Then("^I click Country and State and choose Andorra$")
 	public void i_click_Country_and_State_and_choose_Andorra() {
-	    hp.City.click();
-	    hp.City.sendKeys("Andorra");
+	    hp.Country.click();
+	    hp.Country.sendKeys("Andorra");
 	}
 
 	@Then("^I click Please Select and choose Ordino$")
 	public void i_click_Please_Select_and_choose_Ordino() {
+		hp.State.sendKeys("Ordino");
 	  
 	}
 
@@ -92,6 +96,7 @@ public class BuyBooksStepDefs {
 	   
 	}
 
+	
 	@Then("^I click Edit account details$")
 	public void i_click_Edit_account_details() {
 	    
