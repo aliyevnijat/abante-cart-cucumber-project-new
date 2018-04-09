@@ -1,5 +1,5 @@
 #Author: Muhammet Koklu
-
+@jenkins
 Feature: Count Add Address
 
   Scenario: Add New Address

@@ -1,7 +1,7 @@
 #Author: Nijat
 
 Feature: Log in, Add to Cart, Check Out
-@smoke_test
+@smoke_test  @jenkins
   Scenario: I log in, add multiple items to cart and check out
     Given I am on AbanteCart Home Page
     Then I hover over Account and click on Login

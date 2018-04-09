@@ -2,7 +2,7 @@
 
 Feature: Nails
 
- @Bilal
+ @Bilal @jenkins
   Scenario: Buy Nail Product 
     Given I am on AbanteCart Home Page
     When I hover over the "MAKEUP"

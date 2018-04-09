@@ -3,6 +3,8 @@ Feature:
   Background: 
     Given I am on AbanteCart Home Page
 
+@jenkins
+
   @test
   Scenario: 
     When I hover over Home menu button

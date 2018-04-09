@@ -1,5 +1,5 @@
 #Author: Ekaterina
-@productdescription
+@productdescription @jenkins
 Feature: Product Description
 
   Scenario: Click on Product - Product name and product price on the Product Description page are the same as on the Multiple Products page
