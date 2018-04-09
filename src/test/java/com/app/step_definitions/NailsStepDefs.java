@@ -27,8 +27,19 @@ public class NailsStepDefs {
 	    
 	}
 
+//	@Then("^following menu options should be visible (MAKEUP|CHEEKS|EYES|FACE|LIPS|NAILS|VALUESETS):$")
+//	public void following_menu_options_should_be_visible(String menu, List<String> menuList) {
+//		
+//		List<WebElement> menuOptions = ma.MakeUpDropDown(menu);
+//		List<String> topMenuOptionsString = BrowserUtils.getElementsText(menuOptions);
+//		assertEquals(topMenuOptionsString.size(), menuList.size(), "Number of expected menu options did not match");
+//		for (int i = 0; i < menuList.size(); i++) {
+//			assertEquals(topMenuOptionsString.get(i).trim(), menuList.get(i));
+//		}
+//	}
 	@Then("^following menu options should be visible:$")
-	public void following_menu_options_should_be_visible(List<String> list) {
+	public void following_menu_options_should_be_visible(List<String> List) {
+			BrowserUtils.waitFor(10);
 			assertTrue(hp.Cheeks.isDisplayed());
 			assertTrue(hp.Eyes.isDisplayed());
 			assertTrue(hp.Face.isDisplayed());
@@ -40,35 +51,35 @@ public class NailsStepDefs {
 
 	@Then("^I should be able to choose \"([^\"]*)\"$")
 	public void i_should_be_able_to_choose(String arg1) {
+		BrowserUtils.waitFor(2);
+		BrowserUtils.hover(hp.MAKEUP);
 		hp.Nails.click();	
-		BrowserUtils.waitFor(4);
-		//need to add NailPolish
-		ma.NailPolish.click();
+		
+		
 	}
 
 	@Then("^Verify the Pirce is \"([^\"]*)\"$")
 	public void verify_the_Pirce_is(String total) {
-		assertEquals(hp.price,total);
-		System.out.println(hp.price);
-		System.out.println(total);
+		assertTrue(hp.price1.isDisplayed());
 	    
 	}
 
 	@When("^I click on the add to cart button$")
 	public void i_click_on_the_add_to_cart_button() {
-		ma.addToCart.click();
+		hp.cart.click();
+		hp.AddtoCart.click();
 	   
 	}
 
 	@Then("^I should be able to Choose Country \"([^\"]*)\"$")
 	public void i_should_be_able_to_Choose_Country(String arg1) {
-		BrowserUtils.waitFor(4);
-	   hp.Country.sendKeys("United States");
+		BR.Selects(hp.Country, "United States");
+		
 	}
 
 	@Then("^I choose City \"([^\"]*)\"$")
 	public void i_choose_City(String arg1) {
-		hp.City.sendKeys("Illinois");
+		BR.Selects(hp.State,"Illinois");
 	    
 	}
 
@@ -77,35 +88,17 @@ public class NailsStepDefs {
 	    hp.ZIPPostCode.sendKeys("60018");
 	}
 
-	@Then("^I should be able to click Check out button on the bottom$")
-	public void i_should_be_able_to_click_Check_out_button_on_the_bottom() {
-	   hp.checkout2.click();
-	}
-
 	@Then("^Click on the Continue Shopping$")
 	public void click_on_the_Continue_Shopping() {
-		hp.confirmOrder.click();
+		BrowserUtils.waitFor(5);
+		hp.continueShopping.click();
 	    
 	}
-
-	@Then("^I click on the \"([^\"]*)\"$")
-	public void i_click_on_the(String arg1) {
-	   
-	}
-
-	@Then("^I should see \"([^\"]*)\"$")
-	public void i_should_see(String arg1) {
-	    
-	}
-
-	@When("^I hover over ont the Image$")
-	public void i_hover_over_ont_the_Image() {
-	 
-	}
-
-	@Then("^I \"([^\"]*)\" option shoulde be visible$")
-	public void i_option_shoulde_be_visible(String arg1) {
-	   
-	}
-
+	
+//	@When("^I hover over the \"([^\"]*)\"$")
+//	public void i_hover_over_SkinCare(String arg1) {
+//	    BrowserUtils.hover(hp.SKINCARE);
+//	    
+//	}
+	
 }

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-AbanteCart_Smoke_Test">
-              <span class="suite-name border-passed">AbanteCart Smoke Test</span>
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-AbanteCart_Smoke_Test">
-                    <span>smoke_test_runner.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-AbanteCart_Smoke_Test">
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-AbanteCart_Smoke_Test">
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
                     <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-AbanteCart_Smoke_Test">
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-AbanteCart_Smoke_Test">
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-AbanteCart_Smoke_Test">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-AbanteCart_Smoke_Test">
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.CukesRunner" hash-for-method="runScenario(&quot;Buy Nail Product&quot;, &quot;Nails&quot;)">runScenario("Buy Nail Product", "Nails")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.CukesRunner" hash-for-method="runScenario(&quot;Buy audio books&quot;, &quot;Buying Books&quot;)">runScenario("Buy audio books", "Buying Books")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-AbanteCart_Smoke_Test" class="hide-methods passed suite-AbanteCart_Smoke_Test"> (hide)</a> <!-- hide-methods passed suite-AbanteCart_Smoke_Test -->
-                      <a href="#" panel-name="suite-AbanteCart_Smoke_Test" class="show-methods passed suite-AbanteCart_Smoke_Test"> (show)</a> <!-- show-methods passed suite-AbanteCart_Smoke_Test -->
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-AbanteCart_Smoke_Test">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AbanteCart_Smoke_Test" title="com.app.runner.SmokeTestRunner" hash-for-method="runScenario(&quot;I log in, add multiple items to cart and check out&quot;, &quot;Log in, Add to Cart, Check Out&quot;)">runScenario("I log in, add multiple items to cart and check out", "Log in, Add to Cart, Check Out")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.CukesRunner" hash-for-method="runScenario(&quot;Edit account details&quot;, &quot;Buying Books&quot;)">runScenario("Edit account details", "Buying Books")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-AbanteCart_Smoke_Test -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.CukesRunner" hash-for-method="runScenario(&quot;Click on Product - Product name and product price on the Product Description page are the same as o...)">runScenario("Click on Product - Product name and product price on the Product Description page are the same as o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.app.runner.CukesRunner" hash-for-method="runScenario(&quot;Click on View - Product name on the Product Description page is the same as on the Multiple Product...)">runScenario("Click on View - Product name on the Product Description page is the same as on the Multiple Product...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,59 +145,177 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-AbanteCart_Smoke_Test" class="panel AbanteCart_Smoke_Test">
-          <div class="suite-AbanteCart_Smoke_Test-class-passed">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.app.runner.SmokeTestRunner</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.app.runner.CukesRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;I log in, add multiple items to cart and check out&quot;, &quot;Log in, Add to Cart, Check Out&quot;)">
-                  </a> <!-- runScenario("I log in, add multiple items to cart and check out", "Log in, Add to Cart, Check Out") -->
+                  <a name="runScenario(&quot;Buy Nail Product&quot;, &quot;Nails&quot;)">
+                  </a> <!-- runScenario("Buy Nail Product", "Nails") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("I log in, add multiple items to cart and check out", "Log in, Add to Cart, Check Out")</span>
+                  <span class="parameters">("Buy Nail Product", "Nails")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;estimate_country&apos;]&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nijats-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ccf:8b12:4c76:7085%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/7v/8vh4h4751v1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: f473207cd5ec7f962caf8e3eb7cdd57c
+*** Element info: {Using=xpath, value=//select[@id=&apos;estimate_country&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:44)
+	at com.app.utilities.BrowserUtils.Selects(BrowserUtils.java:22)
+	at com.app.step_definitions.NailsStepDefs.i_should_be_able_to_Choose_Country(NailsStepDefs.java:76)
+	at ✽.I should be able to Choose Country &quot;United States&quot;(src/test/resources/features/Nails.feature:21)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Buy audio books&quot;, &quot;Buying Books&quot;)">
+                  </a> <!-- runScenario("Buy audio books", "Buying Books") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Buy audio books", "Buying Books")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;cart&apos;]&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nijats-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ccf:8b12:4c76:7085%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/7v/8vh4h4751v1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 20ddb0946fda93f990b572950b7613a7
+*** Element info: {Using=xpath, value=//a[@class=&apos;cart&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at com.app.step_definitions.BuyBooksStepDefs.iclick_add_to_cart(BuyBooksStepDefs.java:46)
+	at ✽.Iclick add to cart(src/test/resources/features/BuyBooks.feature:11)
+
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-AbanteCart_Smoke_Test-class-passed -->
-        </div> <!-- panel AbanteCart_Smoke_Test -->
-        <div panel-name="test-xml-AbanteCart_Smoke_Test" class="panel">
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.app.runner.CukesRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Edit account details&quot;, &quot;Buying Books&quot;)">
+                  </a> <!-- runScenario("Edit account details", "Buying Books") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Edit account details", "Buying Books")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click on Product - Product name and product price on the Product Description page are the same as o...)">
+                  </a> <!-- runScenario("Click on Product - Product name and product price on the Product Description page are the same as o...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click on Product - Product name and product price on the Product Description page are the same as on the Multiple Products page", "Product Description")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click on View - Product name on the Product Description page is the same as on the Multiple Product...)">
+                  </a> <!-- runScenario("Click on View - Product name on the Product Description page is the same as on the Multiple Product...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click on View - Product name on the Product Description page is the same as on the Multiple Products page", "Product Description")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/nijataliyev/git/abante-cart-cucumber-project-new/smoke_test_runner.xml</span>
+            <span class="header-content">/private/var/folders/7v/8vh4h4751v1_f7nvmtwwyg2r0000gn/T/testng-eclipse--882285730/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;AbanteCart Smoke Test&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;SmokeTest1&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.app.runner.SmokeTestRunner&quot;/&gt;
+      &lt;class name=&quot;com.app.runner.CukesRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SmokeTest1 --&gt;
-&lt;/suite&gt; &lt;!-- AbanteCart Smoke Test --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-AbanteCart_Smoke_Test" class="panel">
+        <div panel-name="testlist-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for AbanteCart Smoke Test</span>
+            <span class="header-content">Tests for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SmokeTest1 (1 class)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-AbanteCart_Smoke_Test" class="panel">
+        <div panel-name="group-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for AbanteCart Smoke Test</span>
+            <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -181,82 +328,175 @@
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-AbanteCart_Smoke_Test" class="panel">
+        <div panel-name="times-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for AbanteCart Smoke Test</span>
+            <span class="header-content">Times for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_AbanteCart_Smoke_Test');
-function tableData_AbanteCart_Smoke_Test() {
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'com.app.runner.SmokeTestRunner')
-data.setCell(0, 3, 29626);
-window.suiteTableData['AbanteCart_Smoke_Test']= { tableData: data, tableDiv: 'times-div-AbanteCart_Smoke_Test'}
+data.setCell(0, 2, 'com.app.runner.CukesRunner')
+data.setCell(0, 3, 67657);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.app.runner.CukesRunner')
+data.setCell(1, 3, 29962);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.app.runner.CukesRunner')
+data.setCell(2, 3, 28043);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.app.runner.CukesRunner')
+data.setCell(3, 3, 11061);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.app.runner.CukesRunner')
+data.setCell(4, 3, 9229);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
-              <div id="times-div-AbanteCart_Smoke_Test">
-              </div> <!-- times-div-AbanteCart_Smoke_Test -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-AbanteCart_Smoke_Test" class="panel">
+        <div panel-name="reporter-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for AbanteCart Smoke Test</span>
+            <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">runScenario("I log in, add multiple items to cart and check out", "Log in, Add to Cart, Check Out")</span>
+              <span class="reporter-method-name">runScenario("Edit account details", "Buying Books")</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><div "result">I am on AbanteCart Home Page (PASSED : 7s)</div></span>
-                <span class="reporter-method-output"><div "result">I hover over Account and click on Login (PASSED : 1s)</div></span>
-                <span class="reporter-method-output"><div "result">I Enter Login name &quot;vasif123&quot; and password &quot;vasif123&quot; and verify main text equals &quot;MY ACCOUNT&quot; (PASSED : 2s)</div></span>
-                <span class="reporter-method-output"><div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (PASSED : 1s)</div></span>
-                <span class="reporter-method-output"><div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (PASSED : 3s)</div></span>
-                <span class="reporter-method-output"><div "result">I verify that displayed total price equals &quot;12.84&quot; (PASSED : 0s)</div></span>
-                <span class="reporter-method-output"><div "result">I continue shopping (PASSED : 1s)</div></span>
-                <span class="reporter-method-output"><div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (PASSED : 3s)</div></span>
-                <span class="reporter-method-output"><div "result">I verify that displayed total price equals &quot;35.62&quot; (PASSED : 0s)</div></span>
-                <span class="reporter-method-output"><div "result">I click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (PASSED : 5s)</div></span>
+                <span class="reporter-method-output"><div "result">I am on AbanteCart Home Page (PASSED : 5s)</div></span>
+                <span class="reporter-method-output"><div "result">I click on Account (PASSED : 8s)</div></span>
+                <span class="reporter-method-output"><div "result">I click Edit account details (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I set First Name as &quot;Fast&quot; (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">I set Last Name as &quot;Furious&quot; (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">I set E-Mail as &quot;fast@gmail.com&quot; (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">I set Telephone as &quot;123456789&quot; (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">I set Fax as &quot;987654321&quot; (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">I click Continue (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">I see message displayed - Success: Your account has been successfully updated (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Click on Product - Product name and product price on the Product Description page are the same as o...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">I am on AbanteCart Home Page (PASSED : 3s)</div></span>
+                <span class="reporter-method-output"><div "result">I go to tab FRAGRANCE (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I choose option WOMEN (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">I am on page with WOMEN products (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I see the product with name BEAUTY EAU DE PARFUM (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I click on the product with name BEAUTY EAU DE PARFUM (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">I see page with the same product name  BEAUTY EAU DE PARFUM (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Click on View - Product name on the Product Description page is the same as on the Multiple Product...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">I am on AbanteCart Home Page (PASSED : 5s)</div></span>
+                <span class="reporter-method-output"><div "result">I go to tab SKINCARE (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I choose option EYES (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">I am on page with EYES products (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I see product ABSOLUTE EYES PRECIOUS CELLS (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I hover over a product (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I click on View button (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">I see page with the same product name ABSOLUTE EYES PRECIOUS CELLS (PASSED : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Buy Nail Product", "Nails")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">I am on AbanteCart Home Page (PASSED : 3s)</div></span>
+                <span class="reporter-method-output"><div "result">I hover over the &quot;MAKEUP&quot; (PASSED : 5s)</div></span>
+                <span class="reporter-method-output"><div "result">following menu options should be visible: (PASSED : 10s)</div></span>
+                <span class="reporter-method-output"><div "result">I should be able to choose &quot;Nails&quot; (PASSED : 14s)</div></span>
+                <span class="reporter-method-output"><div "result">I should be able to choose &quot;FLUID SHINE NAIL POLISH&quot; (PASSED : 13s)</div></span>
+                <span class="reporter-method-output"><div "result">Verify the Pirce is &quot;$137&quot; (PASSED : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">I click on the add to cart button (PASSED : 12s)</div></span>
+                <span class="reporter-method-output"><div "result">I should be able to Choose Country &quot;United States&quot; (FAILED : 5s)</div></span>
+                <span class="reporter-method-output"><div "result">I choose City &quot;Illinois&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">I type Zipcode &quot;60018&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">Click on the Continue Shopping (SKIPPED)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Buy audio books", "Buying Books")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "result">I am on AbanteCart Home Page (PASSED : 4s)</div></span>
+                <span class="reporter-method-output"><div "result">I hover over books and click audio CD (PASSED : 11s)</div></span>
+                <span class="reporter-method-output"><div "result">I click sort by Rating Highest (PASSED : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">I click on New French With Ease title (PASSED : 2s)</div></span>
+                <span class="reporter-method-output"><div "result">Iclick add to cart (FAILED : 5s)</div></span>
+                <span class="reporter-method-output"><div "result">I enter quantity as 3 (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">I click Update (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">I click Country and State and choose Andorra (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">I click Please Select and choose Ordino (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">I input ZIP &quot;21215&quot; (SKIPPED)</div></span>
+                <span class="reporter-method-output"><div "result">I click Checkout (SKIPPED)</div></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-AbanteCart_Smoke_Test" class="panel">
+        <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-AbanteCart_Smoke_Test" class="panel">
+        <div panel-name="chronological-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.app.runner.SmokeTestRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.app.runner.CukesRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("I log in, add multiple items to cart and check out", "Log in, Add to Cart, Check Out")</span>
-                <span class="method-start">198 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Buy audio books", "Buying Books")</span>
+                <span class="method-start">267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Edit account details", "Buying Books")</span>
+                <span class="method-start">28313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Buy Nail Product", "Nails")</span>
+                <span class="method-start">58276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click on Product - Product name and product price on the Product Description page are the same as o...)</span>
+                <span class="method-start">125936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click on View - Product name on the Product Description page is the same as on the Multiple Product...)</span>
+                <span class="method-start">135166 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">29825 ms</span>
+                <span class="method-start">146232 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

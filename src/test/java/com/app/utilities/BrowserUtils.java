@@ -18,6 +18,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BrowserUtils {
+	public void Selects(WebElement element , String find) {
+		  Select select=new Select(element);
+		  select.selectByVisibleText(find);
+		 }
+	
 	public static void hover(WebElement element) {
 		Actions actions = new Actions(Driver.getDriver());
 		actions.moveToElement(element).perform();

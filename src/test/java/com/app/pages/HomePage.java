@@ -81,7 +81,32 @@ public class HomePage {
 	@FindBy(xpath = "//ul[@id = 'main_menu_top']//span[.='Account']")
 	public WebElement accountTop;
 	
+	@FindBy(xpath="//ul[@class='side_account_list']//li[3]//a")
+	public WebElement EditAccount;
 	
+	@FindBy(id ="AccountFrm_firstname")
+	public WebElement firstName;
+	
+	@FindBy(id ="AccountFrm_lastname")
+	public WebElement lastname;
+	
+	@FindBy(id ="AccountFrm_email")
+	public WebElement email;
+	
+	@FindBy(id ="AccountFrm_telephone")
+	public WebElement telephone;
+	
+	@FindBy(id ="AccountFrm_fax")
+	public WebElement fax;
+	
+	@FindBy(xpath="//button[@class='btn btn-orange pull-right lock-on-click']")
+	public WebElement continuepage;
+	
+	@FindBy(xpath="//div[@class='alert alert-success']")
+	public WebElement alertSuccess;
+	
+	@FindBy(xpath="//a[@class='btn btn-default mr10  mb10']")
+	public WebElement continueShopping;
 	
 	@FindBy(xpath = "//ul[@id = 'main_menu_top']//a[@class = 'sub menu_login']")
 	public WebElement loginTop;
@@ -113,6 +138,9 @@ public class HomePage {
 	
 	@FindBy(xpath="(//a[contains(text(),'Eyes')])[1]")
 	public WebElement Eyes;
+	
+	@FindBy(xpath="(//a[contains(text(),'Eyes')])[2]")
+	public WebElement Eyes1;
 	
 	@FindBy(xpath="(//a[contains(text(),'Face')])[2]")
 	public WebElement Face;
@@ -167,5 +195,4 @@ public class HomePage {
 	
 	@FindBy(xpath="//*[@id=\"categorymenu\"]/nav/ul/li[4]/div/ul[1]/li[1]/a")
 	public WebElement Eyes2;
-	
 }

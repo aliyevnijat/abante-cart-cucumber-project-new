@@ -1,8 +1,8 @@
 #Shavkat
-
+@Sha @jenkins
 Feature: Buying Books
 
-	@Sha @jenkins
+	 
   Scenario: Buy audio books
     Given I am on AbanteCart Home Page
     And I hover over books and click audio CD
@@ -16,14 +16,14 @@ Feature: Buying Books
     And I input ZIP "21215"
     And I click Checkout
    
-@shava @jenkins
+
   Scenario: Edit account details
     Given I am on AbanteCart Home Page
     Then I click on Account
     And I click Edit account details
     And I set First Name as "Fast"
     And I set Last Name as "Furious"
-    And I set E-Mail as "f&f@test.com"
+    And I set E-Mail as "fast@gmail.com"
     And I set Telephone as "123456789"
     And I set Fax as "987654321"
     Then I click Continue

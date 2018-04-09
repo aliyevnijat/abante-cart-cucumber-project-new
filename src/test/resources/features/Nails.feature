@@ -2,7 +2,7 @@
 
 Feature: Nails
 
- @Bilal @jenkins
+ @Sha @jenkins
   Scenario: Buy Nail Product 
     Given I am on AbanteCart Home Page
     When I hover over the "MAKEUP"
@@ -21,10 +21,9 @@ Feature: Nails
     Then I should be able to Choose Country "United States"
     And I choose City "Illinois"
     And I type Zipcode "60018"
-    Then I should be able to click Check out button on the bottom
     Then Click on the Continue Shopping 
 		
-		@jenkins
+	
      Scenario: Verify View and Write Rewiev is visible
     Given I am on AbanteCart Home Page
     When I hover over the "SKIN CARE"

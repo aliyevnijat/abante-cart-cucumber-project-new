@@ -8,7 +8,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				"html:target/cucumber-report",
 				"json:target/cucumber.json"
 				},
-		tags = "@jenkins", 
+		tags = "@Sha", 
 		features="src/test/resources/features",
 		glue="com.app.step_definitions",
 		dryRun=false
