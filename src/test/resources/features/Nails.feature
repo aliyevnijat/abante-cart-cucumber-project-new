@@ -25,7 +25,7 @@ Feature: Nails
     Then Click on the Continue Shopping 
 
      Scenario: Verify View and Write Rewiev is visible
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     When I hover over the "SKIN CARE"
     Then following menu options should be visible:
       
