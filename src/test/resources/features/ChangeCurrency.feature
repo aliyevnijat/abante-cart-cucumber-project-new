@@ -1,5 +1,5 @@
 #Author: Muhammet Koklu
-@jenkins
+
 Feature: Change Currency
 
   Scenario: Change Dollar to Pound Sterling

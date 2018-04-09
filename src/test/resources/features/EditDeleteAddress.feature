@@ -1,5 +1,5 @@
 #Author: Muhammet Koklu
-@jenkins
+
 Feature: Edit
 
   Scenario: Edit Address

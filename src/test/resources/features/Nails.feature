@@ -23,7 +23,8 @@ Feature: Nails
     And I type Zipcode "60018"
     Then I should be able to click Check out button on the bottom
     Then Click on the Continue Shopping 
-
+		
+		@jenkins
      Scenario: Verify View and Write Rewiev is visible
     Given I am on AbanteCart Home Page
     When I hover over the "SKIN CARE"

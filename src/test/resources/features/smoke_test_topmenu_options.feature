@@ -3,9 +3,9 @@ Feature:
   Background: 
     Given I am on AbanteCart Home Page
 
-@jenkins
 
-  @test
+
+  @test @jenkins
   Scenario: 
     When I hover over Home menu button
     Then Following menu options shoul be visible for Home menu
@@ -14,14 +14,14 @@ Feature:
       | Cart     |
       | Checkout |
 
-  @test
+  @test @jenkins
   Scenario: 
     When I hover over Apparel & Accessories menu button
     Then Following menu options shoul be visible for Apparel & Accessories:
       | Shoes    |
       | T-shirts |
 
-  @test
+  @test @jenkins
   Scenario: 
     When I hover over MAKEUP menu button
     Then Following menu options shoul be visible for MAKEUP:
@@ -32,7 +32,7 @@ Feature:
       | Nails      |
       | Value Sets |
 
-  @test
+  @test @jenkins
   Scenario: 
     When I hover over SKINCARE menu button
     Then Following menu options shoul be visible for SKINCARE:
@@ -42,14 +42,14 @@ Feature:
       | Hands & Nails     |
       | Sun               |
 
-  @test
+  @test @jenkins
   Scenario: 
     When I hover over FRAGRANCE menu button
     Then Following menu options shoul be visible for FRAGRANCE:
       | Men   |
       | Women |
 
-  @test
+  @test @jenkins
   Scenario: 
     When I hover over MEN menu button
     Then Following menu options shoul be visible for MEN:
@@ -58,14 +58,14 @@ Feature:
       | Pre-Shave & Shaving |
       | Skincare            |
 
-  @test
+  @test @jenkins
   Scenario: 
     When I hover over HAIR CARE menu button
     Then Following menu options shoul be visible for HAIR CARE:
       | Conditioner |
       | Shampoo     |
 
-  @test
+  @test @jenkins
   Scenario: 
     When I hover over BOOKS menu button
     Then Following menu options shoul be visible for BOOKS:

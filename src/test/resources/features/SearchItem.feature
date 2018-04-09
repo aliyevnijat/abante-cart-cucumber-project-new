@@ -1,5 +1,5 @@
 #Athor: Maria
-@jenkins
+
 Feature: Search Item
 
 #	Home Page

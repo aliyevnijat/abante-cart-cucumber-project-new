@@ -1,5 +1,5 @@
 #Author: Mergen Bala
-@jenkins
+
 Feature: Guest Checkout
 
   Scenario: Guest Checkout with product search and same payment/shipping addresses

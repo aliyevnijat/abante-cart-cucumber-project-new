@@ -1,8 +1,8 @@
 #Shavkat
-@jenkins
+
 Feature: Buying Books
 
-	@Sha
+	@Sha @jenkins
   Scenario: Buy audio books
     Given I am on AbanteCart Home Page
     And I hover over books and click audio CD
@@ -16,7 +16,7 @@ Feature: Buying Books
     And I input ZIP "21215"
     And I click Checkout
    
-@shava
+@shava @jenkins
   Scenario: Edit account details
     Given I am on AbanteCart Home Page
     Then I click on Account

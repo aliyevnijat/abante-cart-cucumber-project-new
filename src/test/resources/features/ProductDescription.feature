@@ -1,7 +1,7 @@
 #Author: Ekaterina
-@productdescription @jenkins
+ 
 Feature: Product Description
-
+	@productdescription @jenkins
   Scenario: Click on Product - Product name and product price on the Product Description page are the same as on the Multiple Products page
     Given I am on AbanteCart Home Page
     When I go to tab FRAGRANCE
@@ -10,7 +10,7 @@ Feature: Product Description
     And I see the product with name BEAUTY EAU DE PARFUM
     When I click on the product with name BEAUTY EAU DE PARFUM
     Then I see page with the same product name  BEAUTY EAU DE PARFUM
-
+@productdescription @jenkins
   Scenario: Click on View - Product name on the Product Description page is the same as on the Multiple Products page
     Given I am on AbanteCart Home Page
     When I go to tab SKINCARE
