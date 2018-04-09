@@ -71,9 +71,17 @@ public class HomePage {
 		
 	@FindBy(xpath="//div[@class='productfilneprice']")
 	public WebElement price;
+	
+	@FindBy(xpath="(//div[@class='oneprice'])[2]")
+	public WebElement price1;
+	
+	@FindBy(xpath="(//i[@class='fa fa-cart-plus fa-fw'])[2]")
+	public WebElement cart;
 	 
 	@FindBy(xpath = "//ul[@id = 'main_menu_top']//span[.='Account']")
 	public WebElement accountTop;
+	
+	
 	
 	@FindBy(xpath = "//ul[@id = 'main_menu_top']//a[@class = 'sub menu_login']")
 	public WebElement loginTop;

@@ -19,6 +19,7 @@ import cucumber.api.java.en.When;
 public class NailsStepDefs {
 	HomePage hp = new HomePage();
 	MyAccount ma = new MyAccount();
+	BrowserUtils BR = new BrowserUtils();
 	
 	@When("^I hover over the \"([^\"]*)\"$")
 	public void i_hover_over_the(String arg1) {
