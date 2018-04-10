@@ -195,7 +195,6 @@ public class HomePage {
 	
 	@FindBy(xpath="//*[@id=\"categorymenu\"]/nav/ul/li[4]/div/ul[1]/li[1]/a")
 	public WebElement Eyes2;
-	
 
 	//Maria
 		@FindBy(xpath ="(//a[@class='prdocutname'])[1]")
@@ -214,6 +213,4 @@ public class HomePage {
 		
 		@FindBy(xpath="//input[@id='filter_keyword']")
 		public WebElement searchkeyword;
-		
-		
 }
