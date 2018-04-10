@@ -15,7 +15,7 @@ public class SearchItem {
 	MyAccount ma = new MyAccount();
 	
 
-@Given("^I enter \"([^\"]*)\"$")
+@When("^I enter \"([^\"]*)\"$")
 public void i_enter(String shoe) {
 	BrowserUtils.waitFor(4);
 	hp.searchkeyword.sendKeys(shoe);  
