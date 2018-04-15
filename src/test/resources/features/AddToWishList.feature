@@ -1,48 +1,28 @@
 #Author: Ekaterina
-
-Feature: Add to and Removing from Wishlist
+@Kat
+Feature: Adding to and Removing from Wishlist
 
   Scenario: Adding product to Wish list
-    Given I am on AbanteCart Home Page
+  	Given I am on AbanteCart Home Page
+    And I logged into AbanteCart Website
     When I go to tab Hair Care
     And I choose option Conditioner
-    Then I'm on page with Conditioner products
-    When I click on the product with name HIGHLIGHTING EXPRESSIONS
-    Then I see page with the same product name  HIGHLIGHTING EXPRESSIONS
-    And I see option Add to wish list
-    When I press on the option Add to wish list
-    Then I see option Remove from wish list
+    And I click on the product with name HIGHLIGHTING EXPRESSIONS
+    And I press on the option Add to wish list
     When I hover over ACCOUNT and press on CHECK YOUR ORDER
-    Then I see button My wish list
-    When I press button My wish list
+    And I press button My wish list
     Then I see page MY WISH LIST
     And I see product with name HIGHLIGHTING EXPRESSIONS
 
   Scenario: Deleting product from Wish list
-    Given I logged into AbanteCart Website
+  	Given I am on AbanteCart Home Page
+    And I logged into AbanteCart Website
     When I go to tab Hair Care
     And I choose option Conditioner
-    Then I'm on page with Conditioner products
-    When I click on the product with name HIGHLIGHTING EXPRESSIONS
-    Then I see page with the same product name  HIGHLIGHTING EXPRESSIONS
-    And I see option Add to wish list
-    When I press on the option Add to wish list
-    Then I see option Remove from wish list
+    And I click on the product with name HIGHLIGHTING EXPRESSIONS
+    And I press on the option Add to wish list
     When I hover over ACCOUNT and press on CHECK YOUR ORDER
-    Then I see button My wish list
-    When I press button My wish list
-    Then I see page MY WISH LIST
-    And I see one product in MY WISH LIST
-    When I hover over MAKEUP and choose CHEEKS
-    And I choose TROPIQUES MINERALES LOOSE BRONZER
-    Then I see page with the same product name TROPIQUES MINERALES LOOSE BRONZER
-    And I see option Add to wish list
-    When I press on the option Add to wish list
-    Then I see option Remove from wish list
-    When I hover over ACCOUNT and press on CHECK YOUR ORDER
-    Then I see button My wish list
-    When I press button My wish list
-    Then I see page MY WISH LIST
-    And I see two product in MY WISH LIST
+    And I press button My wish list
+    Then I see product with name HIGHLIGHTING EXPRESSIONS
     When I click on a trash-can icon
-    Then One of the products gets deleted and I can only see one product left in MY WISH LIST
+    Then The product gets deleted and I don't see any products in MY WISH LIST

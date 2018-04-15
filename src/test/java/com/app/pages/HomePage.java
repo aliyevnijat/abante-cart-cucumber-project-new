@@ -21,7 +21,6 @@ public class HomePage {
 	
 	public boolean isUrl(String url) {
 		return driver.getCurrentUrl().equals(url);
-		  
 	}
 	  
 	@FindBy(xpath="//div[@class='menu_text']")
@@ -209,6 +208,43 @@ public class HomePage {
 	
 	@FindBy(xpath="//*[@id=\"categorymenu\"]/nav/ul/li[4]/div/ul[1]/li[1]/a")
 	public WebElement Eyes2;
+	
+	//Ekaterina
+	@FindBy (xpath="//*[@id=\"categorymenu\"]/nav/ul/li[7]/a")
+	public WebElement HairButton;
+	
+	@FindBy (xpath="//*[@id=\"categorymenu\"]/nav/ul/li[7]/div/ul[1]/li[1]/a")
+	public WebElement ConditionerButton;
+	
+	@FindBy (xpath="//*[@id=\"maincontainer\"]/div/div/div/div/div[2]/div[4]/div[1]/div/a")
+	public WebElement HighlightingExpressions;
+	
+	@FindBy (xpath="//*[@id=\"product\"]/fieldset/div[5]/a[2]")
+	public WebElement WishListButton;
+	
+	@FindBy (xpath="//*[@id=\"loginFrm\"]/fieldset/button")
+	public WebElement LoginButton;
+	
+	@FindBy(xpath="//*[@id=\"main_menu_top\"]/li[2]")
+	public WebElement AccountButton;
+	
+	@FindBy (xpath="//*[@id=\"main_menu_top\"]/li[2]/ul/li[1]/a/span")
+	public WebElement CheckYourOrderButton;
+	
+	@FindBy (xpath="//*[@id=\"maincontainer\"]/div/div[2]/div[1]/div/ul/li[2]/a")
+	public WebElement MyWishListButton2;
+	
+	@FindBy (xpath="//*[@id=\"maincontainer\"]/div/div[1]/div/h1/span[1]")
+	public WebElement WishListPage;
+	
+	@FindBy (xpath="//*[@id=\"maincontainer\"]/div/div[1]/div/div/div/table/tbody/tr[2]/td[2]/a")
+	public WebElement verifyHighlightingExpressions;
+	
+	@FindBy (xpath="//*[@id=\"maincontainer\"]/div/div[1]/div/div/div/table/tbody/tr[2]/td[6]/a[2]")
+	public WebElement TrashCanIcon;
+	
+	@FindBy(xpath="//*[@id=\"maincontainer\"]/div/div[1]/div/div")
+	public WebElement WishListIsEmpty;
 	
 	@FindBy(xpath="//*[.='Flash Bronzer Body Gel']")
 	public WebElement FlashBronz;
