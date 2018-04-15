@@ -145,6 +145,9 @@ public class HomePage {
 	@FindBy(xpath="(//a[contains(text(),'Face')])[2]")
 	public WebElement Face;
 	
+	@FindBy(xpath="(//a[contains(text(),'Face')])[3]")
+	public WebElement Face1;
+	
 	@FindBy(xpath="(//a[contains(text(),'Lips')])[1]")
 	public WebElement Lips;
 	
@@ -156,6 +159,17 @@ public class HomePage {
 	
 	@FindBy(xpath ="(//a[contains(text(),'Skincare')])[2]")
 	public WebElement SKINCARE;
+	
+	@FindBy(xpath ="//a[contains(text(),'Gift Ideas & Sets')]")
+	public WebElement Giftideas;
+	
+	@FindBy(xpath ="//a[contains(text(),'Hands & Nails')]")
+	public WebElement HandsNails;
+	
+	@FindBy(xpath ="//a[contains(text(),'Sun')]")
+	public WebElement Sun;
+	
+	
 	
 	@FindBy(xpath ="(//a[contains(text(),'Fragrance')])[2]")
 	public WebElement FRAGRANCE;
@@ -195,7 +209,14 @@ public class HomePage {
 	
 	@FindBy(xpath="//*[@id=\"categorymenu\"]/nav/ul/li[4]/div/ul[1]/li[1]/a")
 	public WebElement Eyes2;
-
+	
+	@FindBy(xpath="//*[.='Flash Bronzer Body Gel']")
+	public WebElement FlashBronz;
+	
+	@FindBy(xpath="//span[@class='total-price']")
+	public WebElement TotalAmount22;
+	
+	
 	//Maria
 		@FindBy(xpath ="(//a[@class='prdocutname'])[1]")
 		public WebElement blackshoes;

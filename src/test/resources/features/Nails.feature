@@ -36,8 +36,6 @@ Feature: Nails
       | Sun              |
       
     And I click on the "SUN"
-    Then I should see "Flash Bronzer Body Gel"
-    When I hover over ont the Image 
-    Then I "View and  Write Rewiev" option shoulde be visible
-    
+    Then I should be able to  click on the "Flash Bronzer Body Gel" link
+    Then Price should be visible "$29"
     
