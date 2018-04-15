@@ -27,19 +27,9 @@ public class MyAccount {
 	@FindBy(xpath = "//ul[@class='nav-pills categorymenu']//a[text()[contains(.,'Makeup')]]")
 	public WebElement makeUp;
 	
-	
-	
-	
-	
-	
-	
 	@FindBy(xpath="(//a[@class='prdocutname'])[2]")
 	public WebElement NailPolish;
-	
-	
 
-	
-	
 	@FindBy(xpath = "//ul[@class='nav-pills categorymenu']//a[text()[contains(.,'Skincare')]]")
 	public WebElement skincare;
 
@@ -93,6 +83,90 @@ public class MyAccount {
 
 	@FindBy(id = "cart_update")
 	public WebElement cart_update;
+	
+	@FindBy(xpath="(//div[@class='pricetag jumbotron']//div[@class='oneprice'])[3]")
+	public  WebElement dolarIcon;
+	
+	@FindBy(xpath="(//a[@class='dropdown-toggle'])[1]")
+	public WebElement moneyselect;
+	
+	@FindBy(xpath="//text()[.='€ Euro']")
+	public WebElement euro;
+	
+	@FindBy(xpath="//div[@class='myaccountbox']//i[@class='fa fa-book fa-fw']")
+	public WebElement myAccount;
+	
+	@FindBy(xpath="//tbody//tr")
+	public List<WebElement> addressNumber;
+	 
+	 
+	@FindBy(xpath="//a[@title='New Address']")
+	public WebElement NewAddress;
+	
+	@FindBy(xpath="//button[@title='Continue']")
+	public WebElement ContinueButton;
+	
+	@FindBy(xpath="//div[@class=' ct_padding_right']//tbody//tr//td[1]")
+	public List<WebElement> addressBookAddres;
+	 	 
+	
+	@FindBy(xpath="//div[@class='pricetag jumbotron']//div[@class='price']")
+	public WebElement verifyList;
+	
+	@FindBy(xpath="//text() [.='Absolue Eye Precious Cells']")
+	public WebElement AbsuluteEye;
+	
+	@FindBy(id="product_quantity")
+	public WebElement ProductQiant1;
+	  
+	@FindBy(xpath="//div[@class='productfilneprice']")
+	public WebElement unitPrice;
+	
+	@FindBy(xpath="//span[@class='total-price']")
+	public WebElement totalPrice;
+	
+	@FindBy(xpath="//span[@class='bgnone']")
+	public WebElement ProductName;
+	
+	@FindBy(xpath="//a[@class='cart']")
+	public WebElement cart;
+	
+	@FindBy(id="AddressFrm_firstname")
+	public WebElement FirstName;
+	
+	@FindBy(id="AddressFrm_lastname")
+	public WebElement LastName;
+	
+	@FindBy(id="AddressFrm_company")
+	public WebElement company;
+	
+	@FindBy(id="AddressFrm_address_1")
+	public WebElement Address1;
+	
+	@FindBy(id="AddressFrm_city")
+	public WebElement City;
+	
+	@FindBy(id="AddressFrm_zone_id")
+	public WebElement Region;
+	
+	@FindBy(id="AddressFrm_postcode")
+	public WebElement CountryId;
+	 	
+	@FindBy(id="sort")
+	public WebElement sort;
+	
+	@FindBy(xpath="cart_quantity65")
+	public WebElement cartQuantity2;
+	
+	@FindBy(id="//table[@class='table table-striped table-bordered']//tbody//td[@class='align_left'][1]")
+	public WebElement ProductName2;
+
+	@FindBy(xpath="//table[@class='table table-striped table-bordered']//tbody//td[@class='align_right'][2]")
+	public WebElement TOTALPRICE2;
+		
+	@FindBy(xpath="//table[@class='table table-striped table-bordered']//tbody//td[@class='align_right'][1]")
+	public WebElement UNITPRICE2;
+	
 
 	public List<WebElement> menuOptions(String menuName) {
 		String xpath = "";
