@@ -1,12 +1,8 @@
 package com.app.step_definitions;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import org.openqa.selenium.WebElement;
 
 import com.app.pages.HomePage;
 import com.app.pages.MyAccount;

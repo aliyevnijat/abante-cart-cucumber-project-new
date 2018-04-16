@@ -1,7 +1,7 @@
 #Author: Muhammet Koklu
-
+@Shavkat
 Feature: Change Currency
-@mhtt
+
   Scenario: Change Dollar to Pound Sterling
     Given I am on AbanteCart Home Page
     And I Click Books

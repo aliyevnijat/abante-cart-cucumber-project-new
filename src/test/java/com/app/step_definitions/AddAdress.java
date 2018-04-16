@@ -2,18 +2,10 @@ package com.app.step_definitions;
 
 import static org.testng.Assert.assertTrue;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.WebDriver;
-
 import com.app.pages.HomePage;
 import com.app.pages.LoginPage;
 import com.app.pages.MyAccount;
 import com.app.utilities.BrowserUtils;
-import com.app.utilities.Configuration;
-import com.app.utilities.Driver;
-
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 

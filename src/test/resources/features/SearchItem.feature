@@ -1,5 +1,5 @@
 #Athor: Maria
-@Masha @Jenkins
+@Shavkat
 Feature: Search Item
 
 #	Home Page
@@ -10,5 +10,5 @@ Feature: Search Item
   Scenario: Search item in a Search Keywords box
     Given I am on AbanteCart Home Page
     When I enter "shoes"
-    When I	click Search
+    When I click Search
     Then Multiple results are shown for shoes.

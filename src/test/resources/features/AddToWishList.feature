@@ -1,5 +1,5 @@
 #Author: Ekaterina
-@Kat
+@Shavkat
 Feature: Adding to and Removing from Wishlist
 
   Scenario: Adding product to Wish list

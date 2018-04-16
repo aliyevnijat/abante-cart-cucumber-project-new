@@ -1,8 +1,8 @@
 #Author Bilal
-
+@Shavkat
 Feature: Nails
 
- @Sha @jenkins
+
   Scenario: Buy Nail Product 
     Given I am on AbanteCart Home Page
     When I hover over the "MAKEUP"
@@ -36,6 +36,5 @@ Feature: Nails
       | Sun              |
       
     And I click on the "SUN"
-    Then I should be able to  click on the "Flash Bronzer Body Gel" link
     Then Price should be visible "$29"
     

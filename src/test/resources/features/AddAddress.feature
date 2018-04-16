@@ -1,7 +1,6 @@
 #Author: Muhammet Koklu
-
 Feature: Count Add Address
-@mhmmt 
+@Shavkat 
   Scenario: Add New Address
   
     Given I am on AbanteCart Home Page
@@ -19,7 +18,7 @@ Feature: Count Add Address
     And Write "11223" as a Zip / Post Code
     When I click to continue
     Then I should displayed  "Your address has been successfully inserted"
-
+@Shavkat
   Scenario Outline: Add Multiple New Address
    Given I am on AbanteCart Home Page
    Then I hover over Account and click on Login

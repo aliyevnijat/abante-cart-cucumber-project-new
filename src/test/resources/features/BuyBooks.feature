@@ -1,5 +1,5 @@
 #Shavkat
-@Sha @jenkins
+@Shavkat
 Feature: Buying Books
 
 	 
