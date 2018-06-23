@@ -22,6 +22,7 @@ public class SmokeTest1 {
 	LoginPage lp = new LoginPage();
 	MyAccount ma = new MyAccount();
 	// trying to understand git
+	//another comment on smoke test
 	@Given("^I am on AbanteCart Home Page$")
 	public void i_logged_into_AbanteCart_Website() {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
